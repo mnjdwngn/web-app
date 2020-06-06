@@ -1,0 +1,280 @@
+<!-- This is a comment -->
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styling.css">
+	<!--
+		<style>
+			.sec_0{
+				background-color:DodgerBlue; 
+				border:2px solid Tomato ; 
+				opacity:0.7;
+				padding:20px;
+				padding-left: 60px;
+			}
+			.sec_0:hover{
+				opacity:1;
+			}
+			.sec_1{
+				background-color:tomato; 
+				border:2px solid DodgerBlue ;
+				opacity:0.7;
+				padding-inline-start: 60px;
+				
+			}
+			.sec_1:hover{
+				opacity:1; 
+			}
+		</style>
+	 	-->
+
+	<title>Learning Web Dev</title>
+</head>
+
+<body>
+
+	<a href="index.html" id="main_title" title="Click here to go to home page">
+		<div class="top_div" id="header_top">
+			<p id="title">
+			<h1 style="text-align:center;">
+				&Topf;&hopf;&iopf;&sopf; &iopf;&sopf; &yopf;&oopf;&uopf;&ropf;
+				&oopf;&vopf;&eopf;&ropf;&aopf;&lopf;&lopf; &popf;&ropf;&oopf;&gopf;&ropf;&eopf;&sopf;&sopf; &iopf;&nopf;
+				&Wopf;&eopf;&bopf; &Dopf;&eopf;&vopf;.
+				<!--THIS IS YOUR OVERALL HTML PROGRESS!-->
+				<img src="title_side_0.png" id="trophy" alt="Trophy" title="Your trophy is waiting!">
+			</h1>
+			</p>
+		</div>
+	</a>
+
+
+
+	<!--<br /><br />-->
+	<div id="container">
+
+		<div id="nav_div">
+			<div class="menu">
+				<p>Menu1</p>
+				<div class="dropdown-content">
+					<a href="#">Option1</a>
+					<a href="#">Option2</a>
+					<a href="#">Option3</a>
+				</div>
+			</div>
+
+			<div class="menu">
+				<p>Menu2</p>
+			</div>
+			
+			<div class="menu">
+				<p>Menu3</p>
+			</div>
+		</div>
+		<!--  JUMP TO  -->
+		<u class="headings">	<!--style="margin-left:20px;"-->
+			<h2>Jump to : </h2>
+		</u>
+		<div id="jump_to">
+			<ul class="jump_list">
+				<li><a href="#head_1" class="bookmarks">HTML Headings</a><br /></li>
+				<li><a href="#head_2" class="bookmarks">HTML links</a><br /></li>
+				<li><a href="#head_3" class="bookmarks">HTML images</a><br /></li>
+				<li><a href="#head_4" class="bookmarks">HTML buttons</a><br /></li>
+				<li><a href="#head_5" class="bookmarks">HTML list</a><br /></li>
+				<li><a href="#head_6" class="bookmarks">HTML paragraphs</a><br /></li>
+				<li><a href="#head_7" class="bookmarks">HTML formatting</a><br /></li>
+				<li><a href="#head_8" class="bookmarks">HTML quotations</a><br /></li>
+				<li><a href="#head_9" class="bookmarks">Formatting link to button</a><br /></li>
+				<li><a href="#head_10" class="bookmarks">CSS float</a><br /></li>
+				<li><a href="page-2.html" class="bookmarks" title="Click to goto pg. 2">Next page &raquo;</a></li>
+			</ul>
+			<!--	<a href="#head_10" class="bookmarks">10. </a><br />
+			<a href="#head_11" class="bookmarks">11. </a><br />-->
+		</div>
+
+		<!--	sec_0 :		-->
+		<h1 style="font-size:45px;"><u class="headings" id="head_1">1. HTML headings :</u></h1>
+		<div class="sec_0">
+			<p>
+				* HTML has 6 headings types : H1 to H6 <br />
+				* H1 is the largest and thus the most important headings and h6 is the smallest one <br />
+				* Let's explore the headingss : <br />
+			</p>
+			<h1 style="background-color:DodgerBlue">This is H1 headings</h1>
+			<h2>This is H2 headings</h2>
+			<h3>This is H3 headings</h3>
+			<h4>This is H4 headings</h4>
+			<h5>This is H5 headings</h5>
+			<h6>This is H6 headings</h6>
+			<p>
+				<u>**NOTE** Thus if we write an opening tag as h1 and closing as h4, the result will be an h1
+					headings!</u>
+			</p>
+		</div>
+
+		<!--	sec_1 :		-->
+		<h1><u class="headings" id="head_2">2. HTML links : </u></h1>
+		<div class="sec_1">
+
+			Click <a id="link_1" href="https://www.w3schools.com" target="_blank" title="Link to Google">here</a> to
+			goto W3school website. <br />
+			<b>Using attribute target="_blank" in the anchor tag will open the link in new tab or new window depending
+				on the browser</b>
+		</div>
+
+		<!--	sec_0 :		-->
+		<u class="headings" id="head_3">
+			<h1>3. HTML Images :</h1>
+		</u>
+		<div class="sec_0">
+			<a id="img_html" href="https://www.google.com" target="_blank">
+				<center><img src="IMG_Html.png" alt="HTML image" title="Link to Google"></center>
+			</a>
+			<br />
+			*Note : CSS has higher priority than the height and width attributes. So better use css in image formatting.
+
+			<h2>Image float : </h2>
+			<p>
+				<img src="smiley.gif" alt="smiley" style="float:right; height:42px; width:42px;" title="Smile Please!">
+				floating image to right... Floating image to right... Floating image to right...
+			</p>
+		</div>
+
+		<!--	sec_1 :		-->
+		<u class="headings" id="head_4">
+			<h1>4. HTML Buttons :</h1>
+		</u>
+		<div class="sec_1">
+			<button id="button_basic">I am a button with no action</button>
+		</div>
+
+		<!--	sec_0 :		-->
+		<u class="headings" id="head_5">
+			<h1>5. HTML list :</h1>
+		</u>
+		<div class="sec_0">
+			There are generally 2 types of lists : Ordered(ol tag) and Unordered(ul tag)<br />
+			We use li tag for list items<br />
+			<ol style="background-color:cyan" title="Ordered List">
+				<li style="background-color:red">First List item</li>
+				<li>Second List item</li>
+				<li>Third list item</li>
+			</ol>
+
+			<ul title=Unordered List">
+				<li>First unordered list item</li>
+				<li>Second unordered list item</li>
+				<li>Third unordered list item</li>
+			</ul>
+		</div>
+
+		<!--	sec_1 :		-->
+		<u class="headings" id="head_6">
+			<h1>6. HTML Paragraphs :</h1>
+		</u>
+		<div class="sec_1">
+			* The pre tag preserves the content within it:
+			<pre>
+					This content is written using pre tag 
+					
+				br tag is not used here
+				</pre>
+		</div>
+
+		<!--	sec_0 :		-->
+		<u class="headings" id="head_7">
+			<h1>7. Text formatting :</h1>
+		</u>
+		<div class="sec_0">
+			<b>Bold text</b> <br />
+			<strong>Strong Text</strong><br />
+			<i>Itallic Text</i><br />
+			<em>Emphasized text</em><br />
+			<mark>Marked Text</mark><br />
+			<small>Small text</small><br />
+			<del>Deleted Text</del><br />
+			<ins>Inserted text</ins><br />
+			<sub>Subscripted text</sub> Eg. len<sub>line</sub><br />
+			<sup>Superscripted text</sup> Eg. e<sup>x</sup><br />
+		</div>
+
+		<!--	sec_1 :		-->
+		<fieldset id="fieldset_trial" style="margin-top: 30px; margin-bottom:30px; border-radius: 50px;;">
+			<legend> This is a fieldset with this legend </legend>
+			<u class="headings" id="head_8">
+				<h1>8. HTML Quotations :</h1>
+			</u>
+			<div class="sec_1">
+				* Lets write a quote using q tag: <q>this is a q tag quote</q> <br /><br />
+				* Lets write a blockquote : <blockquote cite="https://www.google.co.in">This is a blockquote
+				</blockquote><br /><br />
+				* Abbreviation tag : <abbr title="ABBREVIATION">abbr</abbr> tag<br />
+			</div>
+		</fieldset>
+
+		<!--	sec_0 :		-->
+		<u class="headings" id="head_9">
+			<h1>9. Formatting a link to button :</h1>
+		</u>
+		<div class="sec_0" style="height:250px">
+			<a id="a_link_as_button" href="#button_basic">
+				<p id="link_as_button">This link is formatted to button </p>
+			</a>
+		</div>
+
+		<!--	sec_1		-->
+		<u class="headings" id="head_10">
+			<h1>10. float in css :</h1>
+		</u>
+		<div class="sec_1" style="height:fit-content; ">
+			<div style="margin:20px;">
+				<img class="slides" src="trophy.jpg" alt="t1">
+				<img class="slides" src="trophy.jpg" alt="t2">
+				<img class="slides" src="trophy.jpg" alt="t3">
+				<img class="slides" src="trophy.jpg" alt="t4">
+				<img class="slides" src="trophy.jpg" alt="t5">
+				<img class="slides" src="trophy.jpg" alt="t6">
+				<img class="slides" src="trophy.jpg" alt="t7">
+				<img class="slides" src="trophy.jpg" alt="t8">
+			</div>
+		</div>
+
+		<!--	div_next	-->
+		<div class="div_next">
+			<!--
+			<div style="text-align:center; width:100%; position: relative; left:0; z-index:1">You're going great! Move
+				ahead to learn more. GOOD LUCK!</div>
+			<div style="z-index:2; position: relative; left:0; float:right;"><a href="page-2.html">Next Page &raquo;
+				</a></div>
+			-->
+
+			<table style="width:100%;">
+				<tbody style="height:inherit;">
+					<tr style="height:10px; ">
+						<td style="width:10%; height:10px;"></td>
+						<td style="width:80%; height:10px ; text-align:center;">You're going great! Move ahead to learn
+							more. GOOD LUCK!</td>
+						<td style="width:10%; height:inherit; text-align:center;"><a href="page-2.html">Next Page &raquo;</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+		</div>
+
+	</div>
+
+	<footer>
+		<span style="float:left; text-align:center;">Trial Page made in May'20 by Anugrah Mishra.</span>
+		<a href="#header_top" id="back_to_top">
+			<span style="float:right; ">
+				Back to top <span style="background-color: #82AFF9;">&blacktriangle;</span>
+			</span>
+		</a>
+	</footer>
+
+</body>
+
+</html>

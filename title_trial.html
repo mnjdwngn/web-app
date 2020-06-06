@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<style>
+
+			.nav_div{
+				width: 100%;
+				background-color: wheat;
+				margin: 0;
+			}
+
+			.nav_item{
+				float: left;
+				background-color: maroon;
+				width: fit-content;
+				padding: 10px;
+				
+			}
+
+			.nav_item:hover{
+				background-color: gold;
+			}
+
+			.dropdown{
+
+			}
+
+			.dropdown-content{
+				display: none;
+				position: absolute;
+				z-index: 2;
+			}
+
+			.menu_bar:hover .dropdown-content {
+				display: block;
+				position: absolute;
+				top: 3px;
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<div class="nav_div">
+			<div class="dropdown nav_item">
+				<div class="menu_bar">
+					<div> &mldr;</div>
+				</div>
+
+				<div class="dropdown-content">
+					<a href="#">Item 1</a>
+					<a href="#">Item 2</a>
+				</div>
+			</div>
+			
+			<a href="#" class="nav_item">Home</a>
+			<a href="#" class="nav_item">Abt me</a>
+			<a href="#" class="nav_item">Ref.</a>
+		</div>
+	</body>
+
+</html>

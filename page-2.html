@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styling.css" type="text/css" />
+  <title>Learning Web Dev (Page-2)</title>
+
+  <script>
+    function form_submitted(nm) {
+      alert('Thanks for your entry, ' + nm);
+    }
+  </script>
+</head>
+
+<body>
+
+  <a href="index.html" id="main_title" title="Click here to go to home page">
+    <div class="top_div" id="header_top">
+      <!--<div style="width:10%;"></div>-->
+      <p id="title" style="float:left;">
+      <h1 style="text-align:center;">
+        &Topf;&hopf;&iopf;&sopf; &iopf;&sopf; &yopf;&oopf;&uopf;&ropf; &oopf;&vopf;&eopf;&ropf;&aopf;&lopf;&lopf;
+        &popf;&ropf;&oopf;&gopf;&ropf;&eopf;&sopf;&sopf; &iopf;&nopf; &Wopf;&eopf;&bopf; &Dopf;&eopf;&vopf;.
+        <!--THIS IS YOUR OVERALL HTML PROGRESS!-->
+        <div style="width:20px; float:left;"></div>
+        <img src="title_side_0.png" id="trophy" alt="Trophy" title="Your trophy is waiting!">
+      </h1>
+      </p>
+    </div>
+  </a>
+
+  <div id="nav_div">
+    <div class="nav-item menu-btn-div">
+      <!--<img src="menu-btn.png" class="img_menu">-->
+      <div class="menu-btn from-left">
+        <div class="menu-bars"></div>
+        <div class="menu-bars"></div>
+        <div class="menu-bars" style="margin-bottom:0;"></div>
+      </div>
+  
+      <div class="dropdown-content">
+        <a href="index.html">Page 1</a>
+        <a href="page-2.html"> Page 2</a>
+      </div>
+    </div>
+  
+    <a href="index.html"><div class="nav-item"> Home </div></a>
+    <a href="#"><div class="nav-item"> About Me </div></a>
+    <a href="#"><div class="nav-item"> References </div></a>
+  </div>
+
+  <div id="container">
+
+    <!--  JUMP TO  -->
+    <u class="headings">
+      <h2>Jump to : </h2>
+    </u>
+    <div id="jump_to">
+      <ul class="jump_list">
+        <li><a href="#head_11" class="bookmarks">Forms (Udemy)</a><br /></li>
+        <li><a href="#head_12" class="bookmarks">Tables</a><br /></li>
+        <li><a href="#head_13" class="bookmarks">iFrames</a></li>
+        <li><a href="#head_14" class="bookmarks">Embedding Facebook Post</a><br /></li>
+        <li><a href="#head_15" class="bookmarks"></a><br /></li>
+        <li><a href="#head_16" class="bookmarks"></a><br /></li>
+        <li><a href="#head_17" class="bookmarks"></a><br /></li>
+        <li><a href="#head_18" class="bookmarks"></a><br /></li>
+        <li><a href="#head_19" class="bookmarks"></a></li>
+        <li><a href="#head_20" class="bookmarks"></a></li>
+        <li>
+          <a href="index.html" class="bookmarks" title="Click to goto pg. 1">&Lang; Prev. page <br /> </a>
+          <a href="page-2.html" class="bookmarks" title="Click to goto pg. 3"> Next page &Rang;</a>
+        </li>
+      </ul>
+      <!--	<a href="#head_10" class="bookmarks">10. </a><br />
+        <a href="#head_11" class="bookmarks">11. </a><br />-->
+    </div>
+
+    <!--    sec_0   -->
+    <u class="headings" id="head_11">
+      <h1>11. Forms (Udemy) :</h1>
+    </u>
+    <div class="sec_0">
+      <form>
+        <p>Name : <input type="text" placeholder="Enter name" name="name" /></p>
+
+        <p>
+          Marks range :<br /><br />
+          <input type="radio" name="marks" value="fail" /> Below 28 <br />
+          <input type="radio" checked name="marks" value="pass" /> Equal or above 28
+          <br />
+        </p>
+
+        <p>
+          Checkboxes : <br /><br />
+          Checkbox 1 (default) : <input type="checkbox" name="checkbox1" checked value="c1"><br />
+          Checkbox 2 : <input type="checkbox" name="checkbox1" value="c2">
+        </p>
+
+        <p>
+          Select your favourite subject :
+          <select>
+            <option value="cd">CD</option>
+            <option value="cn">CN</option>
+            <option value="os">OS</option>
+            <option value="ds" selected>DS</option>
+            <option value="dbms">DBMS</option>
+          </select>
+        </p>
+
+        <input type="submit" value="Click to submit">
+      </form>
+    </div>
+
+    <!--  sec_1   -->
+    <u class="headings" id="head_12">
+      <h1>12. Tables in HTML :</h1>
+    </u>
+    <div class="sec_1" align="center">
+      <table border="1px">
+        <thead>
+          <th>Heading 1</th>
+          <th>A long heading<br /> in 2 lines!</th>
+          <th>A long heading in 1 line </th>
+          <th>Heading 4</th>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+            <td>Data 3</td>
+            <td>Data 4</td>
+          </tr>
+
+          <tr>
+            <td>Data 5</td>
+            <td>Data 6</td>
+            <td>Data 7</td>
+            <td>Data 8</td>
+          </tr>
+
+          <tr>
+            <td>Data 9</td>
+            <td>Data 10</td>
+            <td>Data 11</td>
+            <td>Data 12</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!--  sec_0   -->
+    <u class="headings" id="head_13">
+      <h1>13. iFrames :</h1>
+    </u>
+    <div class="sec_0">
+      <h2>The HTML entities are :</h2> <br />
+      <iframe src="https://dev.w3.org/html5/html-author/charref" id="iframe_entities"></iframe>
+    </div>
+
+    <!--  sec_1   -->
+    <u class="headings" id="head_14">
+      <h1>14. Embedding Facebook Post</h1>
+    </u>
+    <div class="sec_1" align="center">
+      <iframe
+        src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Faashutosh1965%2Fposts%2F3088705057842138&show_text=true&width=552&appId=164753390271806&height=704"
+         style="border:none; overflow:hidden; height: 250px; border: 5px solid aquamarine; border-top-right-radius: 80px; border-bottom-left-radius: 40px;" scrolling="yes" allowTransparency="true"
+        allow="encrypted-media">
+      </iframe>
+    </div>
+
+
+    <!--	div_next	-->
+    <div class="div_next">
+      <!--
+      <div style="float:left;"><a href="index.html">
+            &laquo; Prev. page</a>
+        </div>
+        <div style="text-align:center; width:80%; float:left;">You're going great! Move ahead to learn more. GOOD LUCK!
+        </div>
+        <div style="float:right;"><a href="page-2.html">Next Page &raquo;</a></div>
+      </div>
+      -->
+
+    <table style="width:100%;">
+      <tbody style="height:inherit;">
+        <tr style="height:10px;">
+          <td style="width:10%; padding-left:23px"><a href="index.html" class="next_link">&laquo; Prev. Page</a></td>
+          <td style="width:80%; text-align:center;">You're going great! Move ahead to learn
+            more. GOOD LUCK!</td>
+          <td style="width:10%; height:inherit; text-align:center;"><a href="page-2.html" class="next_link">Next Page &raquo;</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    </div>
+
+  </div>
+
+  <footer>
+    <span style="float:left; text-align:center;">Trial Page made in May'20 by Anugrah Mishra.</span>
+    <a href="#header_top" id="back_to_top">
+      <span style="float:right; ">
+        Back to top <span style="background-color: #82AFF9;">&blacktriangle;</span>
+      </span>
+    </a>
+  </footer>
+
+</body>
+
+</html>
